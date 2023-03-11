@@ -1,0 +1,49 @@
+﻿Build started 06.12.2022 14:50:37.
+Logging verbosity is set to: Normal.     1>Project "D:\Projects\KNS-2022\KNS-2022\KNS-2022.vcxproj" on node 2 (Rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "x64\Debug\KNS-2022.tlog\KNS-2022.lastbuildstate".
+       _CleanIsIncrementalFile:
+         Deleting file "x64\Debug\\_IsIncrementalBuild".
+       InitializeBuildStatus:
+         Creating "x64\Debug\KNS-2022.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\Visual Studio\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt Error.cpp FST.cpp In.cpp IT.cpp "KNS-2022.cpp" LexicalAnalyzer.cpp Log.cpp LT.cpp Parm.cpp
+         Error.cpp
+         FST.cpp
+     1>D:\Projects\KNS-2022\KNS-2022\FST.cpp(70,37): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
+         In.cpp
+         IT.cpp
+         KNS-2022.cpp
+         LexicalAnalyzer.cpp
+     1>D:\Projects\KNS-2022\KNS-2022\LexicalAnalyzer.cpp(786,51): warning C4267: '=': conversion from 'size_t' to 'char', possible loss of data
+         Log.cpp
+         LT.cpp
+         Parm.cpp
+         Generating Code...
+       Link:
+         D:\Visual Studio\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Projects\KNS-2022\x64\Debug\KNS-2022.exe" /INCREMENTAL /ILK:"x64\Debug\KNS-2022.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Projects\KNS-2022\x64\Debug\KNS-2022.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Projects\KNS-2022\x64\Debug\KNS-2022.lib" /MACHINE:X64 x64\Debug\Error.obj
+         x64\Debug\FST.obj
+         x64\Debug\In.obj
+         x64\Debug\IT.obj
+         "x64\Debug\KNS-2022.obj"
+         x64\Debug\LexicalAnalyzer.obj
+         x64\Debug\Log.obj
+         x64\Debug\LT.obj
+         x64\Debug\Parm.obj
+         KNS-2022.vcxproj -> D:\Projects\KNS-2022\x64\Debug\KNS-2022.exe
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\KNS-2022.tlog\unsuccessfulbuild".
+         Touching "x64\Debug\KNS-2022.tlog\KNS-2022.lastbuildstate".
+     1>Done Building Project "D:\Projects\KNS-2022\KNS-2022\KNS-2022.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+       "D:\Projects\KNS-2022\KNS-2022\KNS-2022.vcxproj" (Rebuild target) (1) ->
+       (ClCompile target) -> 
+         D:\Projects\KNS-2022\KNS-2022\FST.cpp(70,37): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
+         D:\Projects\KNS-2022\KNS-2022\LexicalAnalyzer.cpp(786,51): warning C4267: '=': conversion from 'size_t' to 'char', possible loss of data
+
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:11.00

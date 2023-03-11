@@ -1,0 +1,25 @@
+function str fi ( str first , int num ) { 
+define str result = first ; 
+if num >~ 3
+ { 
+result = ' more than 3 ' ; 
+ } 
+else { 
+result = ' less than 3 ' ; 
+ } 
+return result ; 
+ } 
+proc fg ( str res ) { 
+show res ; 
+define str word = ' cool ' ; 
+concat ( res , word ) ; 
+return ; 
+ } 
+main { 
+define char symb = ` a ` ; 
+define int xnum = 6 ; 
+xnum = xnum + 6 * 9 ; 
+define str copy = ' dw ' ; 
+show copy ; 
+fg ( copy ) ; 
+ } 

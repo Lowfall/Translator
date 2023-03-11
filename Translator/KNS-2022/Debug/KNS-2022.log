@@ -1,0 +1,32 @@
+﻿Build started 20.12.2022 17:52:21.
+Logging verbosity is set to: Normal.     1>Project "D:\Projects\KNS-2022\KNS-2022\KNS-2022.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\KNS-2022.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\Visual Studio\VC\Tools\MSVC\14.33.31629\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt "KNS-2022.cpp"
+         KNS-2022.cpp
+       Link:
+         D:\Visual Studio\VC\Tools\MSVC\14.33.31629\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Projects\KNS-2022\Debug\KNS-2022.exe" /INCREMENTAL /ILK:"Debug\KNS-2022.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Projects\KNS-2022\Debug\KNS-2022.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Projects\KNS-2022\Debug\KNS-2022.lib" /MACHINE:X86 Debug\Error.obj
+         Debug\FST.obj
+         Debug\Generator.obj
+         Debug\Greibach.obj
+         Debug\In.obj
+         Debug\IT.obj
+         "Debug\KNS-2022.obj"
+         Debug\LexicalAnalyzer.obj
+         Debug\Log.obj
+         Debug\LT.obj
+         Debug\MFST.obj
+         Debug\Parm.obj
+         Debug\SemAnalyzer.obj
+         KNS-2022.vcxproj -> D:\Projects\KNS-2022\Debug\KNS-2022.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\KNS-2022.tlog\unsuccessfulbuild".
+         Touching "Debug\KNS-2022.tlog\KNS-2022.lastbuildstate".
+     1>Done Building Project "D:\Projects\KNS-2022\KNS-2022\KNS-2022.vcxproj" (Build target(s)).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.07
